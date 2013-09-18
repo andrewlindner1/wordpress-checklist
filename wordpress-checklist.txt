@@ -1,0 +1,137 @@
+@wordpress #plugin #todo
+
+For each plugin, check:
+
+- enable WP_DEBUG
+- deprecated notices
+- are nonces present in admin forms
+- capability checks vs. permission levels
+- MP6 compatibility
+- README up to date
+- i18n
+
+
+## Confirm up to date
+
+X WP GitHub Activity
+- GitHub: https://github.com/alexkingorg/wp-github-activity
+- SVN: http://plugins.svn.wordpress.org/wp-github-activity/
+
+Social
+- GitHub: https://github.com/crowdfavorite/wp-social
+- SVN: http://plugins.svn.wordpress.org/social/
+- MP6 compat
+    - set background as transparent for `.social-accounts ul li` and `.social-collapsible > .social-title a`
+    - remove `.submit` class from broadcast box, or at least remove border-top
+
+Twitter Tools
+- GitHub: https://github.com/crowdfavorite/wp-twitter-tools
+- SVN: http://plugins.svn.wordpress.org/twitter-tools/
+
+Threads (release)
+- GitHub: https://github.com/crowdfavorite/wp-threads
+- SVN: http://plugins.svn.wordpress.org/threads/
+
+Fullscreen Preview Button
+- GitHub: https://github.com/alexkingorg/wp-fullscreen-preview-button
+- SVN: http://plugins.svn.wordpress.org/fullscreen-preview-button/
+
+Popularity Contest
+- GitHub: https://github.com/crowdfavorite/wp-popularity-contest
+- SVN: http://plugins.svn.wordpress.org/popularity-contest/
+
+Drafts Dropdown
+- GitHub: https://github.com/crowdfavorite/wp-drafts-dropdown
+- SVN: http://plugins.svn.wordpress.org/drafts-dropdown/
+
+
+## Test and update README
+
+CF Revision Manager
+- GitHub: https://github.com/crowdfavorite/wp-revision-manager
+- SVN: http://plugins.svn.wordpress.org/revision-manager/
+
+CF Internal Link Shortcode
+- GitHub: https://github.com/crowdfavorite/wp-internal-link-shortcode
+- SVN: http://plugins.svn.wordpress.org/internal-link-shortcode/
+
+WordPress HelpCenter
+- GitHub:
+- SVN:
+
+CF Expiring Content Shortcode
+- GitHub: https://github.com/crowdfavorite/wp-expiring-content
+- SVN: http://plugins.svn.wordpress.org/expiring-content-shortcode/
+
+Exclude File Type Requests
+- GitHub: https://github.com/crowdfavorite/wp-exclude-file-type-requests
+- SVN: http://plugins.svn.wordpress.org/exclude-file-type-requests/
+
+Shortcut Macros
+- GitHub: NA
+- SVN: http://plugins.svn.wordpress.org/shortcut-macros/
+
+Progressive License
+- GitHub: NA
+- SVN: http://plugins.svn.wordpress.org/progressive-license/
+
+Comment License
+- GitHub: NA
+- SVN: http://plugins.svn.wordpress.org/comment-license/
+
+Old Post Alert
+- GitHub: NA
+- SVN: http://plugins.svn.wordpress.org/old-post-alert/
+
+WP Unformatted
+- GitHub: NA
+- SVN: http://plugins.svn.wordpress.org/wp-unformatted/
+
+
+## Complete
+
+404 Notifier
+- GitHub: NA
+- SVN: http://plugins.svn.wordpress.org/404-notifier/
+    - X Deprecated: Function mysql_list_tables() is deprecated in /Users/aking/Dropbox/Dev/www/wp-36.dev/wp-content/plugins/404-notifier-trunk/404-notifier.php on line 338
+    - X Notice: add_option was called with an argument that is <strong>deprecated</strong> since version 2.3 with no alternative available. in /Users/aking/Dropbox/Dev/www/wp-36.dev/wp-includes/functions.php on line 2971
+    - X Notice: add_option was called with an argument that is <strong>deprecated</strong> since version 2.3 with no alternative available. in /Users/aking/Dropbox/Dev/www/wp-36.dev/wp-includes/functions.php on line 2971
+    - X Notice: add_option was called with an argument that is <strong>deprecated</strong> since version 2.3 with no alternative available. in /Users/aking/Dropbox/Dev/www/wp-36.dev/wp-includes/functions.php on line 2971
+    - Notice: has_cap was called with an argument that is <strong>deprecated</strong> since version 2.0! Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead. in /Users/aking/Dropbox/Dev/www/wp-36.dev/wp-includes/functions.php on line 2969
+    - X Add nonce check
+
+
+## Deprecate
+
+Delink Comment Author
+- SVN: http://plugins.svn.wordpress.org/delink-comment-author/
+
+WordPress Mobile Edition
+- SVN: http://plugins.svn.wordpress.org/wordpress-mobile-edition/
+
+Articles
+- SVN: http://plugins.svn.wordpress.org/articles/
+
+Link Harvest
+- SVN: http://plugins.svn.wordpress.org/link-harvest/
+
+Tag Uncomplete
+- SVN: http://plugins.svn.wordpress.org/tag-uncomplete/
+
+WP Grins
+- SVN: http://plugins.svn.wordpress.org/wp-grins/
+- note deprecated
+- link to alternative plugins
+
+Category Overload
+- SVN: http://plugins.svn.wordpress.org/category-overload/
+
+WP Style Switcher
+- SVN: http://plugins.svn.wordpress.org/wp-style-switcher/
+
+WP Since Last Visit
+- SVN: http://plugins.svn.wordpress.org/wp-since-last-visit/
+
+WP Plugin Auto-Loader
+- SVN: http://plugins.svn.wordpress.org/wp-plugin-auto-loader/
+
